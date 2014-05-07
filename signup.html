@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InstaRide - Register</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="header">
+        <img style="width:300px;" src="InstaRideLogo.png" />
+        <img id="social" style="width:300px;" src="social.png" />
+        <div id="tabs">
+			<div id="labels">
+                <a class="tab" href="homepage.html">HOME</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="tab" href="locations.html">LOCATIONS</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="tab" href="aboutus.html">ABOUT US</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="tab" href="how_this_works.html">HOW THIS WORKS</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="tab" href="contactus.html">CONTACT US</a>
+            </div>
+			<form name="input" action="#" method="post">
+				<h1 class="aboutus">Registration Form</h1>
+				<p class="bodyaboutus">
+					All fields below are required.
+				</p>
+				</div>
+				<div id="wrapper1">
+					<div id="inputs">
+						<h1>PERSONAL INFO</h1>
+						<table>
+							<tr>
+								<td>Username:</td> 
+								<td><input style="width:150px;" type="text" name="username" value=""></td>
+							</tr>
+							<tr>
+								<td>First Name:</td>
+								<td><input style="width:150px;" type="text" name="firstname" value=""></td>
+							</tr>
+							<tr>
+								<td>Last Name:</td>
+								<td><input style="width:150px;" type="text" name="lastname" value=""></td>
+							</tr>
+							<tr>
+								<td>Password:</td>
+								<td><input style="width:150px;" type="password" name="password" value=""></td>
+							</tr>
+								<td>Confirm Password:</td>
+								<td><input style="width:150px;" type="password" name="confirmpassword" value=""></td>
+							</tr>
+							<tr>
+								<td>Cell Phone Number:</td>
+								<td><input style="width:150px;" type="text" name="cell" value=""></td>
+							</tr>
+							<tr>
+								<td>E-mail:</td>
+								<td><input style="width:200px;" type="email" name="email" value=""></td>
+							</tr>
+							<tr>
+								<td>Confirm E-mail:</td>
+								<td><input style="width:200px;" type="email" name="confirmemail" value=""></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div id="wrapper1">
+					<div id="inputs">
+						<h1>ADDRESS INFO</h1>
+						<table>
+							<tr>
+								<td>Street Address 1:</td>
+								<td><input style="width:250px;" type="text" name="street1" value=""></td>
+							</tr>
+							<tr>
+								<td>Street Address 2:</td>
+								<td><input style="width:250px;" type="text" name="street2" value=""></td>
+							</tr>
+							<tr>
+								<td>City:</td>
+								<td><input type="text" name="city" value=""></td>
+							</tr>
+							<tr>
+								<td>State:</td>
+								<td><input style="width:30px;" type="text" name="state" value=""></td>
+							</tr>
+							<tr>
+								<td>Zip Code:</td>
+								<td><input style="width:50px;" type="text" name="zip" value=""></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div id="wrapper1">
+					<div id="inputs">
+						<h1>DRIVER'S LICENSE INFO</h1>
+						<table>
+							<tr>
+								<td>Driver License Number:</td>
+								<td><input type="text" name="dlnum" value=""></td>
+							</tr>
+							<tr>
+								<td>State:</td>
+								<td><input <input style="width:30px;" type="text" name="dlstate" value=""></td>
+							</tr>
+								<td>Date Of Birth (mm/dd/yyyy):</td>
+								<td><input style="width:135px;" type="date" name="dob" value=""></td>
+							</tr>
+								<td>License Exp. Date:</td>
+								<td><input style="width:135px;" type="date" name="dlexpdate" value=""></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div id="wrapper1">
+					<div id="inputs">
+						<h1>PAYMENT INFO</h1>
+						<table>
+							<tr>
+								<td>Name On Card:</td>
+								<td><input style="width:200px;" type="text" name="ccname" value=""></td>
+							</tr>
+							<tr>
+								<td>Credit Card Number:</td>
+								<td><input style="width:200px;" type="text" name="ccnum" value=""></td>
+							</tr>
+							<tr>
+								<td>Expiration Date (mm/yyyy):</td>
+								<td><input type="month" name="expdate" value=""></td>
+							</tr>
+							<tr>
+								<td>CVV2:</td>
+								<td><input <input style="width:30px;" type="text" name="cvv2" value=""></td>
+							</tr>
+							<tr>
+								<td>Street Address 1:</td>
+								<td><input style="width:50px;" type="text" name="billstreet1" value=""></td>
+							</tr>
+							<tr>
+								<td>Street Address 2:</td>
+								<td><input style="width:250px;" type="text" name="billstreet2" value=""></td>
+							</tr>
+							<tr>
+								<td>City:</td>
+								<td><input type="text" name="billcity" value=""></td>
+							</tr>
+							<tr>
+								<td>State:</td>
+								<td><input style="width:30px;" type="text" name="billstate" value=""></td>
+							</tr>
+							<tr>
+								<td>Zip Code:</td>
+								<td><input style="width:50px;" type="text" name="billzip" value=""></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div id="s">
+					<input type="submit" value="Submit" onClick="registrationForm()">
+				</div>
+			</form>
+        </div>
+    </div>
+    <div id="copyright">
+		<br><br>
+        HOME &nbsp;&nbsp;|&nbsp;&nbsp;
+        LOCATIONS &nbsp;&nbsp;|&nbsp;&nbsp;
+        ABOUT US &nbsp;&nbsp;|&nbsp;&nbsp;
+        HOW THIS WORKS &nbsp;&nbsp;|&nbsp;&nbsp;
+        CONTACT US<br><br>
+        <img style="width:250px;" src="social2.png"/><br><br>
+        Copyright&copy2013 InstaRide Inc. All rights Reserved.
+    </div>
+</body>
+</html>

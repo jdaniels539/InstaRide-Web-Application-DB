@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>InstaRide - Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <img style="width:300px;" src="InstaRideLogo.png" />
+        <img id="social" style="width:300px;" src="social.png" />
+        <div id="tabs">
+            <div id="labels">
+                <a class="tab" href="homepage.html">HOME</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="tab" href="locations.html">LOCATIONS</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="tab" href="aboutus.html">ABOUT US</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="tab" href="how_this_works.html">HOW THIS WORKS</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="tab" href="contactus.html">CONTACT US</a>
+            </div>
+            <div id="body">
+				<h1 class="aboutus">Get In Touch!</h1>
+				<p class="bodyaboutus" style="text-indent:0px;">
+                    <span style="text-indent:0px; font-weight:bold;">MAIN OFFICE:</span></br></br>
+					1111 M Street NW.<br>
+					Washington, DC 20052<br>
+				</p>
+				<table class="contactus">
+					<tr>
+						<td>Phone:</td>
+						<td>(202)373-1111</td>
+					</tr>
+					<tr>
+						<td>Fax:</td>
+						<td>(202)373-1112</td>
+					</tr>
+					<tr>
+						<td>E-mail:</td>
+						<td>info@instaride.com</td>
+					</tr>
+				</table>
+				<p class="bodyaboutus" style="text-indent:0px;">
+					<br><br>
+                    <span style="text-indent:0px; font-weight:bold;">Contact Form:</span></br></br>
+					(*) indicates a required field.
+				</p>
+                <form name="input" action="#" method="post">
+				<table class="contactus">
+					<tr>
+						<td>Name*</td>
+						<td><input style="width:150px;" type="text" name="contactname" value=""></td>
+					</tr>
+					<tr>
+						<td>Cell Phone*</td>
+						<td><input style="width:150px;" type="text" name="contactphone" value=""></td>
+					</tr>
+					<tr>
+						<td>E-mail*</td>
+						<td><input style="width:250px;" type="text" name="contactemail" value=""></td>
+					</tr>
+					<tr>
+						<td>Comments*&nbsp;</td>
+						<td><textarea rows="5" cols="45"></textarea>
+				</table>
+                <div id="s">
+                    <input type="submit" value="Submit" onClick="getElements()">
+                </div>
+                </form>
+            </div>
+            <div id="wrapper1">
+                <div id="inputs">
+                    <h1>Sign In</h1>
+                    <form name="input" action="#" method="post">
+                        Username: <br><input style="margin-top:5px;" type="text" name="Username" value=""><br>
+                        Password: <br><input style="margin-top:5px; margin-bottom:5px;" type="password" name="password" value=""><br>
+                        <input style=" position: relative; top:6px; left:0px; margin-right:5px; width:12%;" type="checkbox" name="rememberme" value="rememberme">Remember Me
+                        <p style="width:200px; font-size:8pt;">
+                            <a class="login" href="reset.html">Forgot username or password?</a><br>
+                            New User? <a class="login" href="signup.html">Register Now!</a>
+                        </p>
+                        <div id="s"><input style="background-color: #1B404E; font-family: Verdana, Arial, sans-serif; font-size: 12pt; height: 35px; color: white; " type="submit" value="Login" onClick="login()"></div>
+                    </form>
+                </div>
+            </div>
+            <div id="wrapper2">
+                <img style="width:250px;" src="offer.png" />
+            </div>
+        </div>
+        <div id="copyright">
+                <br><br>
+            HOME &nbsp;&nbsp;|&nbsp;&nbsp;
+            LOCATIONS &nbsp;&nbsp;|&nbsp;&nbsp;
+            ABOUT US &nbsp;&nbsp;|&nbsp;&nbsp;
+            HOW THIS WORKS &nbsp;&nbsp;|&nbsp;&nbsp;
+            CONTACT US<br><br>
+            <img style="width:250px;" src="social2.png" /><br><br>
+            Copyright&copy2013 InstaRide Inc. All rights Reserved.
+        </div>
+    </div>
+</body>
+</html>
